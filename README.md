@@ -58,35 +58,27 @@ Each document may include:
 
 ```text
 dezero-rl/
+├── dezero/
+│   ├── core.py
+│   ├── functions.py
+│   ├── layers.py
+│   ├── models.py
+│   └── optimizers.py
+│
 ├── dezero_rl/
 │   ├── algorithms/
-│   │   ├── dqn.py
-│   │   ├── ppo.py
-│   │   └── sac.py
 │   ├── buffers/
 │   ├── networks/
 │   ├── trainers/
 │   └── utils/
 │
 ├── experiments/
-│   ├── dqn/
-│   ├── ppo/
-│   └── sac/
-│
-├── configs/
-├── results/
-├── examples/
 ├── docs/
-│   ├── dqn.md
-│   ├── a3c.md
-│   ├── trpo.md
-│   ├── ppo.md
-│   └── sac.md
-│
 ├── README.md
-├── LICENSE
-└── requirements.txt
-```
+└── LICENSE
+
+dezero/ contains my implementation of DeZero created while studying Deep Learning from Scratch 3.
+dezero_RL/ contains reinforcement learning algorithms and utilities built on top of it.
 
 ---
 
