@@ -78,6 +78,7 @@ dezero-rl/
 └── LICENSE
 
 dezero/ contains my implementation of DeZero created while studying Deep Learning from Scratch 3.
+
 dezero_RL/ contains reinforcement learning algorithms and utilities built on top of it.
 
 ---
