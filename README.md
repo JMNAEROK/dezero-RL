@@ -4,7 +4,7 @@ Reinforcement learning algorithms implemented using DeZero.
 
 This repository is a personal implementation project for studying reinforcement learning through both papers and code.
 
-While studying deep learning frameworks, I implemented DeZero by following *Deep Learning from Scratch 3*.  
+While studying deep learning and deep learning frameworks, I implemented DeZero by following *Deep Learning from Scratch 3*.  
 Based on that experience, this project uses DeZero as the underlying deep learning framework to implement and study reinforcement learning algorithms.
 
 The main goal is to understand how mathematical formulations in reinforcement learning papers are translated into actual implementations.
@@ -76,6 +76,7 @@ dezero-rl/
 ├── docs/
 ├── README.md
 └── LICENSE
+```
 
 dezero/ contains my implementation of DeZero created while studying Deep Learning from Scratch 3.
 
