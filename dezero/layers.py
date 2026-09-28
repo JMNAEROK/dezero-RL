@@ -122,7 +122,7 @@ class Conv2d(Layer):
         self.kernel_size = kernel_size
         self.stride = stride
         self.pad = pad
-        self.dtpye = dtype
+        self.dtype = dtype
 
         self.W = Parameter(None, name='W')
         if in_channels is not None:
@@ -137,7 +137,7 @@ class Conv2d(Layer):
         C, OC = self.in_channels, self.out_channels
         KH, KW = pair(self.kernel_size)
         scale = np.sqrt(1 / (C * KH * KW))
-        W_data = xp.random.randn(OC, C, KH, KW).astype(self.dtpye) * scale
+        W_data = xp.random.randn(OC, C, KH, KW).astype(self.dtype) * scale
         self.W.data = W_data
 
     def forward(self, x):
